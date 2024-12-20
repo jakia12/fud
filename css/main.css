@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "comic";
+  src: url("../fonts/comic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "comicbd";
+  src: url("../fonts/comicbd.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #2396fe;
+}
+
+.layui-container {
+  width: 1200px;
+  min-width: 1200px;
+}
+
+.box1 {
+  margin-top: 24px;
+}
+.box1 .fl img {
+  width: auto;
+  height: 60px;
+}
+
+.box1 .fl a {
+  margin-left: 28px;
+}
+
+.box1 .fl a:first-child {
+  margin-left: 0px;
+}
+
+.box1 .fr .btn {
+  width: 176px;
+  height: 74px;
+  background: url(../images/t04.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 0 30px;
+  font-family: "comic";
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+
+.box1 .fr .btn img {
+  width: auto;
+  height: 30px;
+}
+
+.box2 {
+  margin-top: 20px;
+}
+
+.box2 img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+.box3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.box3 p {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "comicbd";
+  line-height: 44px;
+}
+
+.box4 {
+  margin-top: 18px;
+}
+
+.box4 .btn {
+  width: 178px;
+  height: 89px;
+  background: url(../images/t07.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 0 30px;
+  font-family: "comicbd";
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+  text-align: center;
+  line-height: 89px;
+}
+
+.content2-section {
+  background: none;
+  background-size: cover;
+}
+
+.box5 {
+  margin-top: 100px;
+  padding: 60px 0;
+}
+
+.box5 .fl img {
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+}
+.box5 .fr {
+  width: auto;
+  height: 316px;
+  margin-left: 40px;
+  background: url(../images/t10.png) no-repeat top;
+  background-size: 100% auto;
+  padding: 50px;
+  padding-top: 40px;
+  margin-top: 120px;
+}
+
+.box5 .fr .p1 {
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 74px;
+  color: #193349;
+  font-family: "comic";
+}
+
+.box5 .fr .p2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1a374d;
+  font-family: "comic";
+  line-height: 30px;
+}
+
+.content3-section {
+  background: #3ca3ff;
+  padding: 100px 0;
+}
+
+.box6 {
+}
+
+.box6 .img1 {
+  width: auto;
+  height: 67px;
+}
+
+.box6 .img2 {
+  width: auto;
+  height: 190px;
+  margin-left: 40px;
+}
+
+.box7 {
+  margin-top: 80px;
+}
+
+.box7 img {
+  width: auto;
+  height: 85px;
+}
+
+.content4-section {
+  padding: 80px 0;
+}
+
+.box8 {
+  text-align: center;
+}
+
+.box8 img {
+  width: auto;
+  height: 65px;
+}
+
+.box9 {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.box9 img {
+  width: auto;
+  height: 532px;
+}
+
+.box10 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box10 img {
+  width: auto;
+  height: 117px;
+}
+
+.box11 {
+  margin-top: 40px;
+}
+
+.box11 .btn {
+  width: 549px;
+  height: 44px;
+  background: url(../images/t20.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+.box11 .btn .p1 {
+  font-weight: bold;
+  font-size: 19px;
+  color: #000000;
+  font-family: "comic";
+}
+
+.box11 .btn .p2 {
+  width: 102px;
+  height: 53px;
+  background: url(../images/t21.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-top: -5px;
+  font-family: "comic";
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  line-height: 40px;
+}
+
+.footer-section {
+  background: #3ca3ff;
+  padding: 20px 0;
+}
+
+.box12 {
+}
+
+.box12 p {
+  font-family: "comic";
+}
+
+.box12 .d1 {
+}
+
+.box12 .d1 .p1 img {
+  width: auto;
+  height: 38px;
+}
+
+.box12 .d1 .p2 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  color: #000000;
+}
+
+.box12 .d2 {
+  width: 500px;
+}
+
+.box12 .d2 .p1 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+
+.box12 .d2 .p2 {
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+  line-height: 21px;
+}
+
+.box12 .d3 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}

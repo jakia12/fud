@@ -1,0 +1,97 @@
+.liumq-body {
+	width: 100%;
+}
+
+.liumq-img-in {
+	font-size: 0;
+}
+
+.liumq-flex {
+	display: flex;
+}
+
+.liumq-border-box {
+	box-sizing: border-box;
+}
+
+.liumq-body {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.liumq-row {
+	flex-direction: row;
+}
+
+.liumq-column {
+	flex-direction: column;
+}
+
+.liumq-wrap {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.liumq-nowrap {
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.liumq-space-around {
+	justify-content: space-around;
+}
+
+.liumq-space-between {
+	justify-content: space-between;
+}
+
+.liumq-justify-content-start {
+	justify-content: flex-start;
+}
+
+.liumq-justify-content-center {
+	justify-content: center;
+}
+
+.liumq-justify-content-end {
+	justify-content: flex-end;
+}
+
+.liumq-align-items-start {
+	align-items: flex-start;
+}
+
+.liumq-align-items-center {
+	align-items: center;
+}
+
+.liumq-align-items-end {
+	align-items: flex-end;
+}
+
+.liumq-flex1 {
+	flex: 1;
+}
+
+.liumq-heading h3{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.liumq-heading p{
+  font-size:16px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.liumq-table-cell{
+  display: table-cell;
+}
+
+.liumq-indent {
+  text-indent: 2em;
+}
+
+.cursor-pointer { 
+  cursor: pointer; 
+}
